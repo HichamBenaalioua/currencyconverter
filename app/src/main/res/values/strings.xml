@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string-array name="currency">
+        <item>MAD => Euro</item>
+        <item>Euro => MAD</item>
+        <item>MAD => Dollar</item>
+        <item>Dollar => MAD</item>
+    </string-array>
+</resources>
