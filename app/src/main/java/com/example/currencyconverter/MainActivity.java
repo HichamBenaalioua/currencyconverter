@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try{
+                    if(Float.parseFloat(String.valueOf(editText.getText())) < 0){
+                        throw new Exception();
+                    }
                 switch (spinner.getSelectedItemPosition()) {
                     case 0:
                         result = Float.parseFloat(String.valueOf(editText.getText())) * MADTOEURO;
